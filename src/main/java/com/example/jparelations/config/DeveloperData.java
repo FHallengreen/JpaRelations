@@ -56,6 +56,6 @@ public class DeveloperData implements ApplicationRunner {
         addressService.printFullAddressInfo(a1.getId(), true);
 
         System.out.println(citizenRepo.findByTownId(1).size());
-        System.out.println(citizenRepo.findByTownName("Lyngby").size());
+        System.out.println(citizenRepo.findByTownName("Lyngby").toString());
     }
 }

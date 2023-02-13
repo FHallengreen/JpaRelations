@@ -25,4 +25,15 @@ public class Town {
     public Town(String name) {
         this.name = name;
     }
+
+    @Override
+    public String toString() {
+        return "Town{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", zipCode='" + zipCode + '\'' +
+                ", mayour='" + mayour + '\'' +
+                ", schools='" + schools + '\'' +
+                '}';
+    }
 }
